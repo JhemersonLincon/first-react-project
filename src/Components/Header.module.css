@@ -1,0 +1,117 @@
+.header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.header nav{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  color: #8181FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.logo span{
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 8px;
+}
+.menu{
+  height: 100%;
+  z-index: 1000;
+  list-style:none;
+  display: flex;
+  align-items: center;
+}
+.menu li{
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  border-bottom: solid white 2px;
+  justify-content: center;
+  height: 100%;
+}
+.menu a{
+  color: #1F1C1C;
+  font-family: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.menu li:hover{
+  background-color: rgba(100, 130, 255,0.1);
+  transition: 0s;
+  border-bottom: #8181FF solid 1px;
+}
+.btnMobile{
+  border: none;
+  outline: none;
+  cursor:pointer;
+  display: none;
+}
+@media (max-width:800px){
+  .menu nav{
+    height: auto;
+    align-items: center;
+  }
+  .menu{
+    position: absolute;
+    background: #8181FF;
+    transition: .3s;
+    overflow: hidden;
+    width: 100vw;
+    opacity: 0  ;
+    height: 0;
+    top: 60px;
+    display: block;
+    left: 0;
+  }
+  .menu li{
+    width: 100%;
+    padding: 20px 0;
+    border: solid 1px white;
+    color: #fff;
+    height: auto;
+  }
+  .menu li a{
+    color: #fff;
+  }
+  .menu li:hover{
+    background: white;
+    border: solid 1px #8181FF;
+  }
+  .menu li:hover a{
+    color: #1F1C1C;
+
+  }
+  .menu.active{
+    height:calc(100vh - 60px);
+    opacity:1;
+    display: block;
+  }
+  .btnMobile{
+    background: none;
+    display: flex;
+    align-items: center;
+  }
+  .btnMobile #hamburguer{
+    display: block;
+    border-top: 2px solid #8181FF;
+    height: 3px;
+    width: 20px;
+  }
+  #hamburguer::after, #hamburguer::before{
+    content: "";
+    width: 20px;
+    display: block;
+    margin-top: 5px;
+    background: #8181FF;
+    height:2px;  
+  }
+}   
