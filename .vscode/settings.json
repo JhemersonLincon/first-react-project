@@ -1,4 +1,5 @@
 {
+  git
   "files.exclude": {
     "**/.svn": true,
     "**/.hg": true,

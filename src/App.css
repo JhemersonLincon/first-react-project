@@ -12,6 +12,14 @@ img{
   user-select: none;
   pointer-events: none;
 }
+body{
+  height: 100%;
+}
+#root{
+  height: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr 100px;
+}
 
 .circle{
   background-color: #8181FF;
@@ -40,4 +48,16 @@ img{
   opacity: 0.8;
   top: 44%;
   left: 75%;
+}
+.animeLeft{
+  transform: translateX(-30px);
+  opacity:0;
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft{
+  to{
+    transform: initial;
+    opacity: initial;
+  }
 }

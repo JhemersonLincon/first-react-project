@@ -13,7 +13,7 @@ import About from "./About";
 const imgExample = [
   {
     src:Analythics,
-    alt: 'analista'
+    alt: 'analista',
   },
   {
     src:Awards,
@@ -27,7 +27,8 @@ const imgExample = [
 const imgS = [
   {
     Photo:shot,
-    message:'Photos'
+    message:'Photos',
+
   }, 
   {
   Photo:Coding,
@@ -35,7 +36,7 @@ const imgS = [
   }, 
   {
     Photo:Search,
-    message:"Pesquisas"
+    message:"Pesquisas",
   }
 ]
 export const Home = () => {
@@ -72,7 +73,7 @@ export const Home = () => {
           <div className={styles.PhotoExample}>
             <Circle />
             <div className={styles.containerIllustration}>
-              <img src={imgIlustration.Photo} alt={imgIlustration.message} />
+              {<img className="animeLeft" src={imgIlustration.Photo} alt={imgIlustration.message} />}
             </div>
           </div>
         </section>
