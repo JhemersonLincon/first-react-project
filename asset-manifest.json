@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47d06984.css",
+    "main.js": "/static/js/main.007bf88e.js",
+    "static/media/Shopping.png": "/static/media/Shopping.ecf107eb36014f3ef41a.png",
+    "static/media/Awards.png": "/static/media/Awards.20d38006c44971b30b2b.png",
+    "static/media/Instagram shot.png": "/static/media/Instagram shot.a15a989ed2cb88502373.png",
+    "static/media/Service.png": "/static/media/Service.d0618ab7bd76ae74912d.png",
+    "static/media/Data.png": "/static/media/Data.c650aa17bda5ed7b1e95.png",
+    "static/media/Analythics.png": "/static/media/Analythics.f8249588f5d6dddf6f38.png",
+    "static/media/E-commerce.png": "/static/media/E-commerce.d2ce7e6e800938367701.png",
+    "static/media/Search.png": "/static/media/Search.ef861f046123cf0c4a44.png",
+    "static/media/Coding.png": "/static/media/Coding.488345335e8eb2f7c8f6.png",
+    "index.html": "/index.html",
+    "static/media/Bio.svg": "/static/media/Bio.569f703bac21b111e500b0c037e0eeac.svg",
+    "main.47d06984.css.map": "/static/css/main.47d06984.css.map",
+    "main.007bf88e.js.map": "/static/js/main.007bf88e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47d06984.css",
+    "static/js/main.007bf88e.js"
+  ]
+}
