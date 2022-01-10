@@ -30,7 +30,7 @@ export const Header = () => {
           </li>
 
           <li onClick={()=>setBtnStates(!btnState)}>
-            <NavLink to="/acess/login">Log In</NavLink>
+            <NavLink to="/acess">Log In</NavLink>
           </li>
         </ul>  
       </nav>

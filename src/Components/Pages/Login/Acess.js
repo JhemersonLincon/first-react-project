@@ -29,7 +29,7 @@ const Acess = () => {
 
           <div className={styles.loginOrRegister}>
             <div className={styles.change}>
-              <NavLink  to="login" end>Login</NavLink>
+              <NavLink  to="" end>Login</NavLink>
               <NavLink  to="register">Register</NavLink>
             </div>
           <div className={styles.loginIndirect}>
@@ -45,7 +45,7 @@ const Acess = () => {
             <div className={styles.division} ><p>or</p></div>
             <div className={styles.forms}>
               <Routes>
-                <Route path="login" element={<Login />}/>
+                <Route path="" element={<Login />}/>
                 <Route path="register" element={<Register/>}/>
               </Routes>
             </div>
