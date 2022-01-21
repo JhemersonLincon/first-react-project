@@ -9,7 +9,7 @@ import Acess from "./Components/Pages/Login/Acess";
 import './App.css'
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/first-react-project">
       <Header />
       <Routes>
         <Route path="/" element={<Home/>} />
